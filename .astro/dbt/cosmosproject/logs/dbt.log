@@ -1,0 +1,33 @@
+[0m23:53:37.963688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001813F077090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001813F2AEDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001813F2AF750>]}
+
+
+============================== 23:53:37.968206 | 00f2b4c2-8145-468b-9bda-2d1032a72b6d ==============================
+[0m23:53:37.968206 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:53:37.969313 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\willy\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Snowflake1\\dbt_airflow\\dags\\dbt\\cosmosproject\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt deps', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:53:38.080924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '00f2b4c2-8145-468b-9bda-2d1032a72b6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001813F377A50>]}
+[0m23:53:38.153212 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m23:53:38.155736 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m23:53:38.156724 [debug] [MainThread]: Command `dbt deps` succeeded at 23:53:38.156724 after 0.28 seconds
+[0m23:53:38.157796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018139BFA750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001813F2F1550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001813F2F16D0>]}
+[0m23:53:38.157796 [debug] [MainThread]: Flushing usage events
+[0m23:56:02.848188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED663AE5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED663F2E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED663F3290>]}
+
+
+============================== 23:56:02.853149 | 3d3fdacf-61ee-42ca-83aa-14134a1556f3 ==============================
+[0m23:56:02.853149 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:56:02.854718 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Snowflake1\\dbt_airflow\\dags\\dbt\\cosmosproject\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\willy\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m23:56:02.959219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3d3fdacf-61ee-42ca-83aa-14134a1556f3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED660DF350>]}
+[0m23:56:02.980525 [debug] [MainThread]: Set downloads directory='C:\Users\willy\AppData\Local\Temp\dbt-downloads-2g2pzjcx'
+[0m23:56:02.981044 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m23:56:03.358717 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m23:56:03.359717 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m23:56:03.492847 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m23:56:03.504812 [info ] [MainThread]: Updating lock file in file path: C:\snowflake1\dbt_airflow\dags\dbt\cosmosproject/package-lock.yml
+[0m23:56:03.513630 [debug] [MainThread]: Set downloads directory='C:\Users\willy\AppData\Local\Temp\dbt-downloads-x8q05knu'
+[0m23:56:03.517345 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m23:56:03.951711 [info ] [MainThread]: Installed from version 1.3.0
+[0m23:56:03.952711 [info ] [MainThread]: Up to date!
+[0m23:56:03.953711 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '3d3fdacf-61ee-42ca-83aa-14134a1556f3', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED66617E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED66617F10>]}
+[0m23:56:03.955232 [debug] [MainThread]: Command `dbt deps` succeeded at 23:56:03.955232 after 1.17 seconds
+[0m23:56:03.955232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED60DFA750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED60E43510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED60E43550>]}
+[0m23:56:03.956241 [debug] [MainThread]: Flushing usage events
